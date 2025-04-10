@@ -1,111 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>VivaZen Store - Bem-Estar Natural</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"/>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Montserrat', sans-serif;
-    }
-    body {
-      background: #f7f7f7;
-      color: #333;
-    }
-    header {
-      background: #50c878;
-      padding: 20px;
-      text-align: center;
-      color: white;
-    }
-    header h1 {
-      font-size: 2.5rem;
-    }
-    nav {
-      background: #333;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 10px 0;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: 600;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      color: #50c878;
-    }
-    .banner {
-      background: url('https://images.unsplash.com/photo-1587019155297-12b92a4f6da6') center/cover;
-      color: white;
-      text-align: center;
-      padding: 60px 20px;
-    }
-    .banner h2 {
-      font-size: 2.5rem;
-    }
-    .products {
-      padding: 40px 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .products h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      color: #50c878;
-    }
-    .product-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .product {
-      background: white;
-      border-radius: 10px;
-      padding: 15px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .product img {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-    .product h3 {
-      margin: 15px 0 5px;
-      font-size: 1.1rem;
-    }
-    .product p {
-      margin-bottom: 10px;
-      font-weight: bold;
-      color: #333;
-    }
-    .product a {
-      display: inline-block;
-      background: #50c878;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background 0.3s;
-    }
-    .product a:hover {
-      background: #3da765;
-    }
-    footer {
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+    body {background: #f7f7f7; color: #333;}
+    header {background: #50c878; padding: 20px; text-align: center; color: white;}
+    header h1 {font-size: 2.5rem;}
+    nav {background: #333; display: flex; justify-content: center; gap: 20px; padding: 10px 0;}
+    nav a {color: white; text-decoration: none; font-weight: 600; transition: 0.3s;}
+    nav a:hover {color: #50c878;}
+    .banner {background: url('https://images.unsplash.com/photo-1587019155297-12b92a4f6da6') center/cover; color: white; text-align: center; padding: 60px 20px;}
+    .banner h2 {font-size: 2.5rem;}
+    .products {padding: 40px 20px; max-width: 1200px; margin: auto;}
+    .products h2 {text-align: center; margin-bottom: 30px; color: #50c878;}
+    .product-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;}
+    .product {background: white; border-radius: 10px; padding: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center;}
+    .product img {width: 100%; height: 220px; object-fit: cover; border-radius: 10px;}
+    .product h3 {margin: 15px 0 5px; font-size: 1.1rem;}
+    .product p {margin-bottom: 10px; font-weight: bold; color: #333;}
+    .product a {display: inline-block; background: #50c878; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: background 0.3s;}
+    .product a:hover {background: #3da765;}
+    footer {background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px;}
   </style>
 </head>
 <body>
@@ -130,77 +49,4 @@
     <h2>Aromaterapia</h2>
     <div class="product-grid">
       <div class="product">
-        <img src="https://m.media-amazon.com/images/I/61HoYjH2UzL._AC_SL1000_.jpg" alt="Difusor ZenMist">
-        <h3>Difusor ZenMist</h3>
-        <p>R$ 89,90</p>
-        <a href="#">Comprar</a>
-      </div>
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/81pVcbOt9WL._AC_SL1500_.jpg" alt="Kit Óleos Essenciais">
-        <h3>Kit Óleos Essenciais (5 unid.)</h3>
-        <p>R$ 129,90</p>
-        <a href="#">Comprar</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="products" id="relaxamento">
-    <h2>Relaxamento</h2>
-    <div class="product-grid">
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/71ND2vE7GgL._AC_SL1500_.jpg" alt="Travesseiro Ortopédico">
-        <h3>Travesseiro Ortopédico Cervical</h3>
-        <p>R$ 149,90</p>
-        <a href="#">Comprar</a>
-      </div>
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/81eDqU6sPjL._AC_SL1500_.jpg" alt="Massageador Elétrico">
-        <h3>Massageador Elétrico Portátil</h3>
-        <p>R$ 199,90</p>
-        <a href="#">Comprar</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="products" id="pele">
-    <h2>Cuidados com a Pele</h2>
-    <div class="product-grid">
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/51bGzloyqXL._AC_SL1000_.jpg" alt="Sabonete de Argila">
-        <h3>Sabonete Natural de Argila</h3>
-        <p>R$ 19,90</p>
-        <a href="#">Comprar</a>
-      </div>
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/61cM3DW+1HL._AC_SL1000_.jpg" alt="Creme Orgânico">
-        <h3>Creme Hidratante Orgânico</h3>
-        <p>R$ 34,90</p>
-        <a href="#">Comprar</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="products" id="fitness">
-    <h2>Fitness e Yoga</h2>
-    <div class="product-grid">
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/71Ee1zqni3L._AC_SL1500_.jpg" alt="Tapete de Yoga">
-        <h3>Tapete de Yoga Antiderrapante</h3>
-        <p>R$ 79,90</p>
-        <a href="#">Comprar</a>
-      </div>
-      <div class="product">
-        <img src="https://m.media-amazon.com/images/I/71tNqljW7kL._AC_SL1500_.jpg" alt="Faixas Elásticas">
-        <h3>Kit Faixas Elásticas de Exercício</h3>
-        <p>R$ 59,90</p>
-        <a href="#">Comprar</a>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 VivaZen Store - Todos os direitos reservados</p>
-    <p>Compra 100% segura | Atendimento via WhatsApp</p>
-  </footer>
-</body>
-</html>
+        <img src="https://m.media
