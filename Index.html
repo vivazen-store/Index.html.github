@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>VivaZen Store - Bem-Estar Natural</title>
+  <link rel="icon" href="https://i.imgur.com/fG7aY8Z.png" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"/>
   <style>
     * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
@@ -24,10 +25,24 @@
     .product p {margin-bottom: 10px; font-weight: bold; color: #333;}
     .product a {display: inline-block; background: #50c878; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: background 0.3s;}
     .product a:hover {background: #3da765;}
-    footer {background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px;}
+    footer {background: #333; color: white; text-align: center; padding: 30px 20px; margin-top: 40px; font-size: 0.9rem;}
+    .footer-logo {margin-bottom: 10px;}
+    .footer-icons img {height: 30px; margin: 0 8px; vertical-align: middle;}
+    /* Botão WhatsApp */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+    .whatsapp-btn img {
+      height: 60px;
+      width: 60px;
+    }
   </style>
 </head>
 <body>
+
   <header>
     <h1>VivaZen Store</h1>
     <p>Seu refúgio natural de bem-estar</p>
@@ -44,6 +59,9 @@
     <h2>Produtos Naturais, Bem-Estar Real</h2>
     <p>Compre com confiança e segurança</p>
   </section>
+
+  <!-- PRODUTOS (mantenha os que você já tem) -->
+  <!-- Exemplo reduzido: copie todos os seus produtos aqui -->
 
   <section class="products" id="aromas">
     <h2>Aromaterapia</h2>
@@ -63,63 +81,23 @@
     </div>
   </section>
 
-  <section class="products" id="relaxamento">
-    <h2>Relaxamento</h2>
-    <div class="product-grid">
-      <div class="product">
-        <img src="https://i.imgur.com/3HTAKqQ.jpg" alt="Travesseiro Ortopédico">
-        <h3>Travesseiro Ortopédico Cervical</h3>
-        <p>R$ 149,90</p>
-        <a href="#">Comprar</a>
-      </div>
-      <div class="product">
-        <img src="https://i.imgur.com/REjUlIT.jpg" alt="Massageador Elétrico">
-        <h3>Massageador Elétrico Portátil</h3>
-        <p>R$ 199,90</p>
-        <a href="#">Comprar</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="products" id="pele">
-    <h2>Cuidados com a Pele</h2>
-    <div class="product-grid">
-      <div class="product">
-        <img src="https://i.imgur.com/0FgZCz3.jpg" alt="Sabonete de Argila">
-        <h3>Sabonete Natural de Argila</h3>
-        <p>R$ 19,90</p>
-        <a href="#">Comprar</a>
-      </div>
-      <div class="product">
-        <img src="https://i.imgur.com/B4f6MRq.jpg" alt="Creme Orgânico">
-        <h3>Creme Hidratante Orgânico</h3>
-        <p>R$ 34,90</p>
-        <a href="#">Comprar</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="products" id="fitness">
-    <h2>Fitness e Yoga</h2>
-    <div class="product-grid">
-      <div class="product">
-        <img src="https://i.imgur.com/T0FZVll.jpg" alt="Tapete de Yoga">
-        <h3>Tapete de Yoga Antiderrapante</h3>
-        <p>R$ 79,90</p>
-        <a href="#">Comprar</a>
-      </div>
-      <div class="product">
-        <img src="https://i.imgur.com/JS58Yyc.jpg" alt="Faixas Elásticas">
-        <h3>Kit Faixas Elásticas de Exercício</h3>
-        <p>R$ 59,90</p>
-        <a href="#">Comprar</a>
-      </div>
-    </div>
-  </section>
+  <!-- WhatsApp Flutuante -->
+  <a class="whatsapp-btn" href="https://wa.me/5511999999999" target="_blank">
+    <img src="https://i.imgur.com/ryESuU0.png" alt="Fale conosco no WhatsApp">
+  </a>
 
   <footer>
+    <div class="footer-logo">
+      <strong>VivaZen Store</strong><br>
+      Cuidado Natural com Você
+    </div>
+    <div class="footer-icons">
+      <img src="https://i.imgur.com/2z5vqQx.png" alt="Compra Segura" title="Compra Segura">
+      <img src="https://i.imgur.com/1hHd8Ft.png" alt="Selo SSL" title="Conexão Protegida">
+      <img src="https://i.imgur.com/yPzQzqq.png" alt="Pagamento Seguro" title="Pagamento Seguro">
+    </div>
     <p>&copy; 2025 VivaZen Store - Todos os direitos reservados</p>
-    <p>Compra 100% segura | Atendimento via WhatsApp</p>
   </footer>
+
 </body>
 </html>
